@@ -1,4 +1,4 @@
-
+describe("StringLength", function () {
 stringLength = (str) => {
   if (str.length < 1) {
     throw "string must be longer than or equal 1 character";
@@ -30,3 +30,5 @@ test("String is greater than 10 character", () => {
     }
 
 });
+
+})
